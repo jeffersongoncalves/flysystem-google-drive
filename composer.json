@@ -1,0 +1,69 @@
+{
+    "name": "jeffersongoncalves/flysystem-google-drive",
+    "description": "A League Flysystem v3 adapter for Google Drive, with a zero-config Laravel driver.",
+    "keywords": [
+        "jeffersongoncalves",
+        "flysystem",
+        "google-drive",
+        "laravel",
+        "storage",
+        "filesystem"
+    ],
+    "homepage": "https://github.com/jeffersongoncalves/flysystem-google-drive",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Simão Gonçalves",
+            "email": "gerson.simao.92@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "google/apiclient": "^2.18",
+        "illuminate/filesystem": "^11.0|^12.0|^13.0",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "league/flysystem": "^3.28"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6.12",
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "pestphp/pest": "^3.7.4|^4.0",
+        "pestphp/pest-plugin-laravel": "^3.0|^4.0",
+        "phpstan/phpstan": "^2.0",
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeffersonGoncalves\\FlysystemGoogleDrive\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JeffersonGoncalves\\FlysystemGoogleDrive\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest --no-coverage",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JeffersonGoncalves\\FlysystemGoogleDrive\\FlysystemGoogleDriveServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
