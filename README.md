@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/flysystem-google-drive.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/flysystem-google-drive)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/flysystem-google-drive/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/flysystem-google-drive/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/flysystem-google-drive/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/flysystem-google-drive/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/flysystem-google-drive/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/flysystem-google-drive/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/flysystem-google-drive.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/flysystem-google-drive)
 
